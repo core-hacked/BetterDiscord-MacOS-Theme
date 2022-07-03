@@ -78,6 +78,11 @@ To install/add the theme to BetterDiscord, follow the steps below.
 
 * BetterDiscord
 
+* SF PRO Display Font
+  * [MacOS](https://developer.apple.com/fonts/)
+  * [Linux/Windows](https://github.com/blaisck/sfwin) <br/>
+  
+  
 ### Installation
 
 1. Clone the repo
