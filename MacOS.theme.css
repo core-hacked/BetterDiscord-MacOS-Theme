@@ -38,6 +38,92 @@
     --background-notification: #26262bb4;
 }
 
+/* MacOS Buttons for Windows (fix) */
+.platform-win .titleBar-1it3bQ {
+    height: 25px;
+}
+
+.platform-win .winButton-3UMjdg {
+    z-index: 999999;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 6px;
+}
+
+.platform-win .winButton-3UMjdg:nth-last-child(1) {
+    background: #fdbc40;
+    order: 2;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(2) {
+    background: #34c749;
+    order: 1;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(3) {
+    background: #fc615d;
+    order: 3;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(3) *,
+.platform-win .winButton-3UMjdg:nth-last-child(2) *,
+.platform-win .winButton-3UMjdg:nth-last-child(1) * {
+    display: none;
+}
+.platform-win html:not(.app-focused) .winButton-3UMjdg {
+    background-color: #313131 !important;
+}
+.platform-win .wordmark-2u86JB {
+    position: fixed !important;
+}
+.platform-win .wordmarkWindows-2dq6rw.wordmark-2u86JB {
+    -webkit-app-region: drag;
+}
+.platform-win .winButton-3UMjdg {
+    z-index: 999999;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 6px;
+    top: 5px;
+    left: 10px;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(1) {
+    background: #fdbc40;
+    order: 2;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(2) {
+    background: #34c749;
+    order: 1;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(3) {
+    background: #fc615d;
+    order: 3;
+}
+.platform-win .winButton-3UMjdg:nth-last-child(3) *,
+.platform-win .winButton-3UMjdg:nth-last-child(2) *,
+.platform-win .winButton-3UMjdg:nth-last-child(1) * {
+    display: none;
+}
+.platform-win html:not(.app-focused) .winButton-3UMjdg {
+    background-color: #313131 !important;
+}
+.platform-win .wordmark-2u86JB {
+    position: fixed !important;
+}
+.platform-win .wordmarkWindows-2dq6rw.wordmark-2u86JB {
+    -webkit-app-region: drag;
+}
+
 /* Source Code */
 
 #app-mount .app-2rEoOp::before,
