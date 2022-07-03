@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/core-hacked/BetterDiscord-MacOS-Theme">
-    <img src="favicon.png" alt="Logo" width="512" height="512">
+    <img src="favicon.png" alt="Logo" width="256" height="256">
   </a>
 
   <h3 align="center">BetterDiscord MacOS Theme</h3>
