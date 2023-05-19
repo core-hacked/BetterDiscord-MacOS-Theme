@@ -134,7 +134,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-[info@corehacked.codes](mailto:info@corehacked.codes)
+[info@corehacked.com](mailto:info@corehacked.com)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
